@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "7d69191d-b013-4678-ba5f-9255e1530542",
+		"name": "ZipAir",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Calculator API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n {\n     \"airplane_id\": 1,\n     \"passengers_count\": 30\n },\n {\n     \"airplane_id\": 2,\n     \"passengers_count\": 50\n },\n {\n     \"airplane_id\": 3,\n     \"passengers_count\": 25\n },\n {\n     \"airplane_id\": 4,\n     \"passengers_count\": 15\n },\n {\n     \"airplane_id\": 5,\n     \"passengers_count\": 45\n },\n {\n     \"airplane_id\": 6,\n     \"passengers_count\": 10\n }   \n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/calculator",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"calculator"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Calculator API",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n {\n     \"airplane_id\": 1,\n     \"passengers_count\": 30\n },\n {\n     \"airplane_id\": 2,\n     \"passengers_count\": 50\n },\n {\n     \"airplane_id\": 3,\n     \"passengers_count\": 25\n },\n {\n     \"airplane_id\": 4,\n     \"passengers_count\": 15\n },\n {\n     \"airplane_id\": 5,\n     \"passengers_count\": 45\n },\n {\n     \"airplane_id\": 6,\n     \"passengers_count\": 10\n }   \n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/calculator",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"calculator"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 09 Sep 2021 07:07:35 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.8.2"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "820"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"airplane_id\": 1,\n        \"passengers_count\": 30,\n        \"fuel_consumption_per_minute\": 0.06,\n        \"total_flight_time_in_minutes\": 3333.3333333333335\n    },\n    {\n        \"airplane_id\": 2,\n        \"passengers_count\": 50,\n        \"fuel_consumption_per_minute\": 0.1240823996531185,\n        \"total_flight_time_in_minutes\": 3223.664283719766\n    },\n    {\n        \"airplane_id\": 3,\n        \"passengers_count\": 25,\n        \"fuel_consumption_per_minute\": 0.08816970037757299,\n        \"total_flight_time_in_minutes\": 6805.058851630362\n    },\n    {\n        \"airplane_id\": 4,\n        \"passengers_count\": 15,\n        \"fuel_consumption_per_minute\": 0.07816479930623699,\n        \"total_flight_time_in_minutes\": 10234.786081465263\n    },\n    {\n        \"airplane_id\": 5,\n        \"passengers_count\": 45,\n        \"fuel_consumption_per_minute\": 0.1459176003468815,\n        \"total_flight_time_in_minutes\": 6853.182875970806\n    },\n    {\n        \"airplane_id\": 6,\n        \"passengers_count\": 10,\n        \"fuel_consumption_per_minute\": 0.08225210003069149,\n        \"total_flight_time_in_minutes\": 14589.29315546026\n    }\n]"
+				}
+			]
+		}
+	]
+}
