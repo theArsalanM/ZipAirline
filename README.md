@@ -13,3 +13,6 @@ To execute this project:
  - `python manage.py makemigrations`
  - `python manage.py migrate`
  - `python manage.py runserver`
+
+
+**Code Coverage score is 91%**
